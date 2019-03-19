@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552884936682.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "77D57F86",
+    "lastKnownWriteTime" : 1552987876,
+    "last_content_update" : 1552987876571,
+    "path" : "E:/1R/ourbir/R/cache.R",
+    "project_path" : "R/cache.R",
+    "properties" : {
+        "cursorPosition" : "83,74",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552712934961.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "48016398",
+    "lastKnownWriteTime" : 1552990580,
+    "last_content_update" : 1552990580339,
+    "path" : "E:/1R/ourbir/R/convert.R",
+    "project_path" : "R/convert.R",
+    "properties" : {
+        "cursorPosition" : "0,3",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

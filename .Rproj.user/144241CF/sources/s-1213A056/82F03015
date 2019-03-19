@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552978667778.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "82F03015",
+    "lastKnownWriteTime" : 1552984440,
+    "last_content_update" : 1552984440276,
+    "path" : "E:/1R/ourbir/R/import.R",
+    "project_path" : "R/import.R",
+    "properties" : {
+        "cursorPosition" : "17,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

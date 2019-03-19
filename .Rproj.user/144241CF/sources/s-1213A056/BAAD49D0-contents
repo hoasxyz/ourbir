@@ -1,0 +1,4 @@
+library(testthat)
+library(ourbir)
+
+test_check("ourbir")
