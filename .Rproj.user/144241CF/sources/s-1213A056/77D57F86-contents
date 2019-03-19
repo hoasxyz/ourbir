@@ -11,7 +11,9 @@
 
 #' @importFrom readxl read_xlsx
 
-#' @importFrom lubridate ymd
+#' @importFrom lubridate ymd today year days
+#' @importFrom multicolor multi_color
+#'
 
 # 读取数据以及初步处理
 load("R/sysdata.rda")

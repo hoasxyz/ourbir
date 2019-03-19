@@ -21,12 +21,13 @@
 #                              str_sub(bir,5,8))))
 
 # 如果想打开函数修改，可以去掉函数名，把tbl换成row，然后就是两个pre
+#' @export
 bir_to <- function(path = ourbir::bir_file("example.xlsx"), pre1d = TRUE, pre5d = TRUE){
 
   tbl <- read_xlsx(path, sheet = 1) %>%
-    mutate(tosolar = ymd(str_c(as.character(ifelse(year(solarToLunar(today())) < year(today()),
-                                                   year(today())-1,
-                                                   year(today()))),
+    mutate(tosolar = ymd(str_c(as.character(ifelse(lubridate::year(solarToLunar(today())) < year(today()),
+                                                   lubridate::year(today())-1,
+                                                   lubridate::year(today()))),
                                str_sub(bir,5,8))))
 
   for(i in seq_along(tbl[[1]])){
