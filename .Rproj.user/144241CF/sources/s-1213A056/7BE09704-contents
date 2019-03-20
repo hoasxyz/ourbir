@@ -45,42 +45,42 @@ bir_to <- function(path = ourbir::bir_file("example.xlsx"), pre1d = TRUE, pre5d 
         switch(tbl$tosolar[i] == today(),
                multi_color(paste0("Happy Birthday to ",tbl$call[i],"!",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
         switch(tbl$pre1[i] == today(),
                multi_color(paste0("Tomorrow is ",tbl$call[i],"'s birthday! ",
                                   "Ready to celebrate it?",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
         switch(tbl$pre5[i] == today(),
                multi_color(paste0(tbl$call[i],"'s birthday ","is in 5 days! ",
                                   "Have you bought one surprising gift?"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
       }else if((pre1d==TRUE)&(pre5d==FALSE)){
         switch(tbl$tosolar[i] == today(),
                multi_color(paste0("Happy Birthday to ",tbl$call[i],"!",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
         switch(tbl$pre1[i] == today(),
                multi_color(paste0("Tomorrow is ",tbl$call[i],"'s birthday! ",
                                   "Ready to celebrate it?",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
       }else if((pre1d==FALSE)&(pre5d==TRUE)){
         switch(tbl$tosolar[i] == today(),
                multi_color(paste0("Happy Birthday to ",tbl$call[i],"!",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
         switch(tbl$pre5[i] == today(),
                multi_color(paste0(tbl$call[i],"'s birthday ","is in 5 days! ",
                                   "Have you bought one surprising gift?"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
       }else if((pre1d==FALSE)&(pre5d==FALSE)){
         switch(tbl$tosolar[i] == today(),
                multi_color(paste0("Happy Birthday to ",tbl$call[i],"!",'\n',"\n"),
                            color = c('cyan3','coral1','purple2',"red", "orange",
-                                     "yellow4", "green", "blue", "purple")))
+                                     "yellow4", "green", "cadetblue1", "purple")))
       }
     })
   }
